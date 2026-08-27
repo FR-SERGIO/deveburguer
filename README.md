@@ -98,7 +98,6 @@ Para ativar o recurso no repositório:
 ```text
 .
 ├── .github/workflows/deploy.yml
-├── public/
 ├── src/
 │   ├── components/
 │   │   └── Layout.jsx
@@ -111,9 +110,11 @@ Para ativar o recurso no repositório:
 │   ├── main.jsx
 │   └── styles.css
 ├── index.html
+├── README.md
 ├── package.json
 ├── vite.config.js
-└── README.md
+├── script.js
+└── styles.css
 ```
 
 ## Personalização
