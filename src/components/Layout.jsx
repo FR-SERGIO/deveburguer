@@ -49,18 +49,6 @@ export default function Layout() {
             ))}
           </nav>
 
-          <div className="sidebar-panel">
-            <span className="panel-label">Inputs</span>
-            <div className="input-box"></div>
-            <div className="input-box short"></div>
-            <div className="input-box"></div>
-            <div className="input-box short"></div>
-          </div>
-
-          <div className="sidebar-panel muted-panel">
-            <span className="panel-label">Background</span>
-            <div className="grid-pattern"></div>
-          </div>
         </div>
       </aside>
 
