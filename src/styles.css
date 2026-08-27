@@ -183,6 +183,7 @@ button {
 }
 
 .main-stage {
+  width: 100%;
   min-width: 0;
   padding: 28px 24px 32px;
   display: flex;
@@ -706,13 +707,16 @@ button {
   }
 
   .hero-panel {
+    width: 100%;
     padding: 20px 18px 18px;
     border-radius: 24px;
+    overflow: hidden;
   }
 
   .hero-copy h1 {
     font-size: clamp(2.35rem, 11vw, 3.5rem);
     letter-spacing: -0.065em;
+    overflow-wrap: anywhere;
   }
 
   .hero-copy p {
@@ -728,6 +732,8 @@ button {
   }
 
   .hero-visual img {
+    width: 100%;
+    max-width: 100%;
     height: 240px;
   }
 }
