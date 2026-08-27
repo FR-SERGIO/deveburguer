@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const highlights = [
   { title: 'Escolha seu combo', items: ['Frango', 'Cheddar', 'Batata'] },
   { title: 'Promoções', items: ['Combo + bebida', '15% off'] },
@@ -24,7 +26,7 @@ export default function HomePage() {
             >
               Peça agora
             </a>
-            <a href="/menu" className="button ghost">Ver cardápio</a>
+            <Link to="/menu" className="button ghost">Ver cardápio</Link>
           </div>
         </div>
 
