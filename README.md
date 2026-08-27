@@ -6,6 +6,16 @@ Landing page responsiva para uma hamburgueria artesanal, criada a partir de uma 
 
 O DevBurger apresenta o cardápio de forma visual e direta, com navegação por páginas, filtros de categoria e pedidos encaminhados para o WhatsApp.
 
+## Preview
+
+### Desktop
+
+![DevBurger em uma tela de computador](docs/devburger-desktop.png)
+
+### Mobile
+
+![DevBurger em uma tela de celular](docs/devburger-mobile.png)
+
 ## Recursos
 
 - Página inicial com destaque do combo principal
